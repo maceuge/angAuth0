@@ -29,7 +29,8 @@
                         "scripts": [
                             "src/assets/jquery/jquery.min.js",
                             "src/assets/bootstrap-4/js/bootstrap.min.js",
-                            "src/assets/fontawesome-5/js/all.js"
+                            "src/assets/fontawesome-5/js/all.js",
+                            "node_modules/auth0-js/build/auth0.js"
                         ]
                     },
                     "configurations": {

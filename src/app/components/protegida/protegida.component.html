@@ -1,3 +1,13 @@
-<p>
-  protegida works!
-</p>
+<div class="row">
+    <div class="col-md-12" *ngIf="profile">
+        <h3 class="text-success">Perfil</h3>
+        <hr>
+        <div class="media">
+            <img class="mr-3" [src]="profile.picture" width="200" height="200">
+            <div class="media-body">
+                <h5 class="mt-0"> {{ profile.given_name }} </h5>
+                {{ profile.family_name }} - {{ profile.nickname }}
+            </div>
+        </div>
+    </div>
+</div>
